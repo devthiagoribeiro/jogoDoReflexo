@@ -30,7 +30,7 @@ A placa **BitDogLab**, que utiliza a **Raspberry Pi Pico W** como microcontrolad
 5. O buzzer emite um som de vitória para o jogador que alcançar mais pontos.
 
 
-[Vídeo de Demonstração](https://youtube.com/shorts/StAe5LxKw-Q?feature=share)
+[Vídeo de Demonstração](https://youtube.com/shorts/FMKY9TK0UeQ?feature=share)
 
 ### Funcionalidades Futuras
 

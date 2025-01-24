@@ -35,7 +35,7 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(firstGame firstGame.c matriz_leds.c )
+add_executable(firstGame firstGame.c matriz_leds.c inc/ssd1306_i2c.c)
 
 pico_set_program_name(firstGame "firstGame")
 pico_set_program_version(firstGame "0.1")
@@ -46,7 +46,7 @@ pico_generate_pio_header(${CMAKE_PROJECT_NAME} ${CMAKE_CURRENT_LIST_DIR}/pio_mat
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE firstGame.c)
 # Modify the below lines to enable/disable output over UART/USB
 pico_enable_stdio_uart(firstGame 1)
-pico_enable_stdio_usb(firstGame 0)
+pico_enable_stdio_usb(firstGame 1)
 
 # Add the standard library to the build
 target_link_libraries(firstGame
@@ -61,7 +61,7 @@ target_include_directories(firstGame PRIVATE
 target_link_libraries(firstGame 
         hardware_pio
         hardware_clocks
-        
+        hardware_i2c
         )
 
 pico_add_extra_outputs(firstGame)

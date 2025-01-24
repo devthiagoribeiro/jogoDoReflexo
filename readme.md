@@ -28,7 +28,9 @@ A placa **BitDogLab**, que utiliza a **Raspberry Pi Pico W** como microcontrolad
 3. O tempo de resposta é medido e a pontuação é registrada.
 4. O placar é exibido na matriz de LEDs.
 5. O buzzer emite um som de vitória para o jogador que alcançar mais pontos.
-[Vídeo de Demonstração](https://youtube.com/shorts/StAe5LxKw-Q?feature=share    )
+
+
+[Vídeo de Demonstração](https://youtube.com/shorts/StAe5LxKw-Q?feature=share)
 
 ### Funcionalidades Futuras
 

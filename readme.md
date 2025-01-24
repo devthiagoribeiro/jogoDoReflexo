@@ -1,7 +1,8 @@
 # Jogo de Reflexo com BitDogLab
 
-![tela de início](img/photo1.jpg)
-![tela de placar](img/photo2.jpg)
+| ![Tela de início](img/photo1.jpg) | ![Tela de placar](img/photo2.jpg) |
+|-----------------------------------|-----------------------------------|
+| Tela de início                    | Tela de placar                   |
 
 ## Descrição
 
@@ -27,7 +28,7 @@ A placa **BitDogLab**, que utiliza a **Raspberry Pi Pico W** como microcontrolad
 3. O tempo de resposta é medido e a pontuação é registrada.
 4. O placar é exibido na matriz de LEDs.
 5. O buzzer emite um som de vitória para o jogador que alcançar mais pontos.
-[Vídeo de Demonstração](...)
+[Vídeo de Demonstração](https://youtube.com/shorts/StAe5LxKw-Q?feature=share    )
 
 ### Funcionalidades Futuras
 
